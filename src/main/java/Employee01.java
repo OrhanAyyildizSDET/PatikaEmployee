@@ -1,53 +1,76 @@
 public class Employee01 {
-    private String name = "";
-    private double salary = 0;
-    private int workHours = 0;
-    private int workYears = 0;
+    private String name;
+    private double salary;
+    private int workHours;
+    private int workStartYear;
+    private double tax;
+    private double bonus;
+    private double raiseSalary;
+    private double salaryWithBonusAndTax;
+    private double totalSalary;
+
     public static void main(String[] args) {
-        Employee01 employee = new Employee01("orhan",2000,22,2022);
+        Employee01 employee = new Employee01("orhan", 2000, 22, 2000);
         System.out.println(employee);
-        Employee01 employee2 = new Employee01("orhan",19000,30,2022);
+        Employee01 employee2 = new Employee01("orhan", 19000, 30, 2011);
         System.out.println(employee2);
+        Employee01 employee3 = new Employee01("orhan",880,53,1995);
+        System.out.println(employee3);
     }
-    public Employee01() {}
-    public Employee01(String name,double salary,int workHours,int workYears){
+
+    public Employee01() {
+    }
+
+    public Employee01(String name, double salary, int workHours, int workYears) {
         this.name = name;
         this.workHours = workHours;
-        this.workYears = workYears;
-        this.salary = bonus(tax(raiseSalary(salary, workYears)),workHours);
+        this.workStartYear = workYears;
+        this.salary = salary;
+        this.tax = tax(salary);
+        this.bonus = bonus(workHours);
+        this.raiseSalary = raiseSalary(salary, workYears);
+        this.salaryWithBonusAndTax = bonus(workHours) + salary - tax;
+        this.totalSalary = tax(salary)+raiseSalary(salary,workYears)+bonus(workHours)+salary;
     }
-    public static double tax(double salary){
-        double taxedSalary = salary;
+
+    public static double tax(double salary) {
+        double taxedSalary = 0;
         if (salary >= 1000) {
-            taxedSalary = salary *97/100;
+            taxedSalary = salary *0.03;
         }
         return taxedSalary;
     }
-    public static double bonus(double salary,int workHours){
-        if (workHours%40 > 0){
-            salary = salary + (workHours / 40*30);
-        }
-        return salary;
+
+    public static double bonus(int workHours) {
+        double bonus = workHours > 40 ? (workHours - 40) * 30 : 0;
+        return bonus;
     }
-    public static double raiseSalary(double salary,int hireYear){
+    public static double raiseSalary(double salary, int hireYear) {
         int workYear = 2021 - hireYear;
-        if (workYear < 9 ){
-            salary = salary*5/100 + salary;
-        }else if (workYear < 20){
-            salary = salary*10/100 + salary;
-        }else {
-            salary = salary*15/100 + salary;
+        double raiseSalary;
+        if (workYear < 9) {
+            raiseSalary = salary * 5 / 100;
+        } else if (workYear < 20) {
+            raiseSalary = salary * 10 / 100;
+        } else {
+            raiseSalary = salary * 15 / 100;
         }
-        return salary;
+        return raiseSalary;
     }
 
     @Override
     public String toString() {
-        return
-                "name='" + name + '\'' +"\n"+
-                " salary=" + salary +"\n"+
-                " workHours=" + workHours +"\n"+
-                " workYears=" + workYears +"\n"+
-                "======================================";
+        return  "name = " + name + '\n'+
+                "salary = " + salary + '\n'+
+                "workHours = " + workHours + '\n'+
+                "workStartYear = " + workStartYear + '\n'+
+                "tax = " + tax + '\n'+
+                "bonus = " + bonus + '\n'+
+                "raiseSalary = " + raiseSalary + '\n'+
+                "salaryWithBonusAndTax = " + salaryWithBonusAndTax + '\n'+
+                "totalSalary = " + totalSalary + '\n'+
+                "====================================" + '\n';
     }
 }
+
+
