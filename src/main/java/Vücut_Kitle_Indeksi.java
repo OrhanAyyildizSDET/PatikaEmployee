@@ -9,14 +9,18 @@ public class Vücut_Kitle_Indeksi {
         Scanner scanner = new Scanner(System.in);
         double resultIndex;
         while (true) {
+            //User select measurement type feet-pound or cm-kg
             System.out.printf("Which measure type do you want to enter?\n1.Kg and Cm\n2.Ft and Pound%n");
             int select = scanner.nextInt();
             if (select == 1) {
+                //here we called Kg-cm method
                 resultIndex = bodyIndexWithKgCm();
 
             } else {
+                //here we called feet-pound method
                 resultIndex = bodyIndexFtPound();
             }
+            //this if section we select IBM measurement for coming result
             if (resultIndex < 18.5){
                 System.out.println("You need to eat a little more" +
                         "\nYour body-weight index is : "+resultIndex+"\nYour body-weight index must be between 18.5-25");
@@ -29,7 +33,9 @@ public class Vücut_Kitle_Indeksi {
                 System.out.println("Please immediately start a diet program" +
                         "\nYour body-weight index is : "+resultIndex+"\nYour body-weight index must be between 18.5-25");
             }
+            //here we need to clear our scanner otherwise while loop doesn't work properly
             scanner.nextLine();
+            //we ask to keep going or not and make sure that lowercase characters so we dont need to know NO or no or No
             System.out.println("If you want to keep going please enter yes if you don't want enter no ");
             String answer = scanner.nextLine().toLowerCase();
             if (answer.equals("no")) {
@@ -56,6 +62,7 @@ public class Vücut_Kitle_Indeksi {
             double weight = scanner.nextDouble();
             return indexCalculate(height, weight,2);
     }
+    //Here we calculate to oru index according to coming flag if it is 1 it calculated with cm-kg if it is 2 it calculated with feet-pound
     public static double indexCalculate(double height, double weight,int flag){
         double indexResult;
 //        0.032808  0.453
