@@ -12,9 +12,11 @@ public class KDV {
         else
             kdv = cost*0.18;
 
+        System.out.println("Without KDV : "+cost);
         //ı want to show only 3 decimal part here
         System.out.println("Your KDV is : "+String.format("%.3f", kdv));
         //this is the original result
         System.out.println(kdv);
+        System.out.println("With KDV total cost : "+String.format("%.3f",(cost+kdv)));
     }
 }
