@@ -38,10 +38,16 @@ public class LessonsAritmetics {
 //we use var args here because there are too many variable for using şn method
     public static double noteCalculator(int... a){
         double average = 0;
+        int flag = 0;
         for (int i:a){
-            average+=i;
+            if (i<0||i>100){
+                flag++;
+            }
+            else {
+                average+=i;
+            }
         }
-        average/=a.length;
+        average/=a.length-flag;
         return average;
     }
 }
