@@ -22,6 +22,7 @@ Toplam Tutar = (135-27)* 2 = 216 TL
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int age,km,kindofJourney;
+        //I used while loop if user enter invalid credentials
         while (true){System.out.println("Please enter your age ");
             age = scanner.nextInt();
             if (age>=0&&age<100){
@@ -31,6 +32,7 @@ Toplam Tutar = (135-27)* 2 = 216 TL
                 System.out.println("Enter valid age");
             }
         }
+        //I used while loop if user enter invalid credentials
         while (true){
             System.out.println("Please enter how many km will you go? ");
             km = scanner.nextInt();
@@ -41,6 +43,7 @@ Toplam Tutar = (135-27)* 2 = 216 TL
                 System.out.println("Enter valid km value");
             }
         }
+        //I used while loop if user enter invalid credentials
         while (true){
             System.out.println("Please enter do you want 1.round trip or 2.one-way? (1) or (2) ");
             kindofJourney = scanner.nextInt();
@@ -57,6 +60,7 @@ Toplam Tutar = (135-27)* 2 = 216 TL
         System.out.println("Your total cost is : "+flyCost(age,km,kindofJourney,kmCost)+" TL");
 
     }
+//    ı used if statements considering 12-24 and 65 age
     public static double flyCost(int age,int km,int kindofJourney,double perKmCost){
         double normalCost = km*perKmCost;
         if (age<12){
