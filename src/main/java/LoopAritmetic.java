@@ -29,7 +29,13 @@ public class LoopAritmetic {
                 }
             }
         }
-        System.out.println("The number which can be divided by 3 and 4 are : " + numbers);
-        System.out.println("The average of numbers which divide by 3 and 4 is : " + total/flag);
+        if (flag != 0){
+            System.out.println("The number which can be divided by 3 and 4 are : " + numbers);
+            System.out.println("The average of numbers which divide by 3 and 4 is : " + total/flag);
+        }
+        else {
+            System.out.println("There are no number fitted that!");
+        }
     }
+
 }
