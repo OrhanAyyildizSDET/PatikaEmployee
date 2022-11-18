@@ -20,19 +20,13 @@ public class powerRecursive {
 
     }
     static int power(int a, int b,int result) {
-        if (a != 0){
-            if (b == 0) {
+        if (b == 0){
                 return result;
             }
-            else {
-              result *=a ;
-              b--;
-              return power(a,b,result);
-            }
-        }
         else {
-            System.out.println(a+" power "+b+ " = 0");
+            result *= a;
+            return power(a,b-1,result);
         }
-        return result;
+
     }
 }
