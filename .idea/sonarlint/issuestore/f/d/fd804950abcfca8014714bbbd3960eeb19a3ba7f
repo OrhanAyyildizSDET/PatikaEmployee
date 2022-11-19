@@ -1,0 +1,41 @@
+
+a
+java:S1192"KDefine a constant instead of duplicating this literal "salatalÄ±k" 4 times.(’¼¸Ë
+¯
+java:S1192C"˜Define a constant instead of duplicating this literal "=======================================================================================" 3 times.(ã‘†Á
+^
+java:S1192"HDefine a constant instead of duplicating this literal "domates" 4 times.(’¼¸Ë
+_
+java:S1192"IDefine a constant instead of duplicating this literal "ÅŸeftali" 4 times.(’¼¸Ë
+\
+java:S1192"FDefine a constant instead of duplicating this literal "armut" 4 times.(’¼¸Ë
+r	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŠŽ¦ýÿÿÿÿ8ûƒ’—Ä0
+m	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¸³¢8¤°“—Ä0
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äµðù8Ùõ”—Ä0
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(à¸íºûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(•ß–áùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÃ¦°þÿÿÿÿ
+M
+java:S6126"2Replace this String concatenation with Text block.(ÕÃ¦°þÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÓÄßŽ
+<	java:S131%""Add a default case to this switch.(¾«œÛýÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ã‘†Á
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(°ÞÉ‹
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ã‘†Á
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(ù¯Ž
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(ã‘†Á
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(»îÂÑÿÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(¤™³Í
+H
+java:S6126Q"2Replace this String concatenation with Text block.(¤™³Í
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(ÇæÎ…ùÿÿÿÿ
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(ÌÈÔòùÿÿÿÿ8üÒ”—Ä0
+Z	java:S106\"9Replace this use of System.out or System.err by a logger.(šâ¹Ñÿÿÿÿÿ8üÒ”—Ä0
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(‘ÿûõ8ýÒ”—Ä0
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(•®ëªøÿÿÿÿ8þÒ”—Ä0
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(Ç™ªé8þÒ”—Ä0
+T	java:S106d"9Replace this use of System.out or System.err by a logger.(õÍï8ÿÒ”—Ä0
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(äŠ¦øÿÿÿÿ8ÿÒ”—Ä0
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8€Ó”—Ä0
+U	java:S106i"9Replace this use of System.out or System.err by a logger.(ñ”úç8È–—Ä0
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(œ±Üñÿÿÿÿÿ8½Á–—Ä0
