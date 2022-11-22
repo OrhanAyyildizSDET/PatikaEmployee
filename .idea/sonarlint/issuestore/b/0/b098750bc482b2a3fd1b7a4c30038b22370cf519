@@ -1,15 +1,0 @@
-
-Y
-java:S4973"<Strings and Boxed types should be compared using "equals()".(íÃºÊ8ƒ´ÒÇ0
-H
-java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ô¿áÒıÿÿÿÿ
-N	java:S106
-"9Replace this use of System.out or System.err by a logger.(¦ƒ¥­
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ß”À«
-S	java:S106"9Replace this use of System.out or System.err by a logger.(²©Ùªüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(òÆäÒøÿÿÿÿ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(ŞÒ©Ø
-]	java:S125$"<This block of commented-out lines of code should be removed.(”¿°üøÿÿÿÿ8ƒØ¶ÒÇ0

@@ -1,8 +1,0 @@
-
-a
-java:S1192"FDefine a constant instead of duplicating this literal "orhan" 3 times.(ÆÚ•ûÿÿÿÿ
-
-java:S1488-"]Immediately return this expression instead of assigning it to the temporary variable "bonus".(æ•ÕŸıÿÿÿÿ8¦…ãïÀ0
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¼¡¨ò
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¥§…ç
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ñç›ÿÿÿÿÿ

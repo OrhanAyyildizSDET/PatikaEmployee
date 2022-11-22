@@ -1,20 +1,0 @@
-
-†
-java:S1192"pDefine a constant instead of duplicating this literal "
-Your body-weight index must be between 18.5-25" 3 times.(æ„ùØ
-t
-java:S1192"^Define a constant instead of duplicating this literal "
-Your body-weight index is : " 3 times.(æ„ùØ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”á†
-g
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(£…èÏ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(£…èÏ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(«Şº€şÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(øİÅŠ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¤ëåú
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(åÄş’ÿÿÿÿÿ
-N	java:S106'"9Replace this use of System.out or System.err by a logger.(ı…•Ô
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(à„şÿÿÿÿ8ŠµÂìÃ0
-T	java:S1064"9Replace this use of System.out or System.err by a logger.(ëŞY8ŠµÂìÃ0
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ŸË´”üÿÿÿÿ8‹µÂìÃ0
-U	java:S106="9Replace this use of System.out or System.err by a logger.(Ğ÷ÿ8ŒµÂìÃ0
