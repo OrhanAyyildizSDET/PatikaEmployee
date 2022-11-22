@@ -12,7 +12,6 @@ public class MinAndMaxValue {
         int count = scanner.nextInt();
         int[] numbers = new int[count];
 
-        int counter = 0;
         int a = 0;
         while (a<count){
             System.out.print("Enter a number "+(a+1)+" : ");
@@ -26,5 +25,19 @@ public class MinAndMaxValue {
         System.out.println("The smallest number is "+numbers[0]);
         System.out.println("The second biggest number is "+numbers[numbers.length-2]);
         System.out.println("The second smallest number is "+numbers[1]);
+
+        int smallestCompare = 0;
+        int biggestCompare = 0;
+        int addNumberForCompare = scanner.nextInt();
+        for (var i=0; i<numbers.length; i++){
+            if (numbers[i]<addNumberForCompare){
+                smallestCompare = numbers[i];
+            }
+            else {
+                biggestCompare = numbers[i];
+            }
+        }
+        System.out.println("Biggest after "+addNumberForCompare+" is "+biggestCompare );
+        System.out.println("Smallest after "+addNumberForCompare+" is "+smallestCompare);
     }
 }
